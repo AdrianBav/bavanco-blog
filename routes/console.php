@@ -1,6 +1,9 @@
 <?php
 
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Foundation\Inspiring;
+use Illuminate\Filesystem\Filesystem;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +19,33 @@ use Illuminate\Foundation\Inspiring;
 Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
 })->describe('Display an inspiring quote');
+
+
+Artisan::command('wink:author', function () {
+    Wink\WinkAuthor::truncate();
+
+    Wink\WinkAuthor::create([
+        'id' => (string) Str::uuid(),
+        'name' => 'Adrian Bavister',
+        'slug' => 'adrian-bavister',
+        'bio' => 'Adrian is an enthusiast, a comedian, a husband, a very bad speller, a cat owner and a web developer.',
+        'email' => 'adrian@bavanco.co.uk',
+        'password' => Hash::make($password = 'password'),
+    ]);
+
+    $this->info('Wink author updated.');
+})->describe('Remove the default author and add myself');
+
+
+Artisan::command('wink:clear', function () {
+    Wink\WinkAuthor::truncate();
+    Wink\WinkPage::truncate();
+    Wink\WinkPost::truncate();
+    Wink\WinkTag::truncate();
+
+    (new Filesystem)->cleanDirectory(
+        storage_path('app/' . config('wink.storage_path'))
+    );
+
+    $this->info('Wink data cleared.');
+})->describe('Clear all wink data');
