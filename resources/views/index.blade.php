@@ -14,7 +14,7 @@
                         @if ($post->featured_image)
                             <img src="{{ $post->featured_image }}" alt="{{ $post->featured_image_caption }}" class="block w-16 h-16 rounded-full mx-auto sm:mr-4 sm:ml-0 bg-cover">
                         @else
-                            <img src="https://via.placeholder.com/150" alt="No Image" class="block w-16 h-16 rounded-full mx-auto sm:mr-4 sm:ml-0 bg-cover">
+                            <img src="{{ Avatar::create($post->title)->toBase64() }}" alt="{{ $post->title }}" class="block w-16 h-16 rounded-full mx-auto sm:mr-4 sm:ml-0 bg-cover">
                         @endif
 
                         <div class="text-center sm:text-left sm:flex-grow">
