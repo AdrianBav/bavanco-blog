@@ -6211,22 +6211,7 @@ table {
 
 /* Add custom utilities here... */
 
-::-moz-selection {
-  background-color: #ff1493;
-}
-
-::selection {
-  background-color: #ff1493;
-}
-
-a:hover {
-  background-color: #ffd700;
-}
-
-/* Post Body */
-
-#post-body {
-  font-family: Merriweather, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+#post {
   font-size: 1.1rem;
   line-height: 1.9;
   padding: 0;
@@ -6236,46 +6221,46 @@ a:hover {
           align-items: center;
 }
 
-#post-body p,
-#post-body ul,
-#post-body ol,
-#post-body h1,
-#post-body h2,
-#post-body h3,
-#post-body blockquote,
-#post-body pre {
+#post p,
+#post ul,
+#post ol,
+#post h1,
+#post h2,
+#post h3,
+#post blockquote,
+#post pre {
   min-width: 100%;
 }
 
-#post-body p,
-#post-body ol,
-#post-body ul,
-#post-body pre,
-#post-body blockquote {
+#post p,
+#post ol,
+#post ul,
+#post pre,
+#post blockquote {
   margin-bottom: 33px !important;
 }
 
 /* Paragraph */
 
-#post-body > p {
+#post > p {
 }
 
-#post-body > p > strong {
+#post > p > strong {
 }
 
-#post-body > p > em {
+#post > p > em {
 }
 
-#post-body > p > u {
+#post > p > u {
 }
 
-#post-body > p > s {
+#post > p > s {
 }
 
-#post-body > p > code {
+#post > p > code {
 }
 
-#post-body > h2 {
+#post > h2 {
   margin-top: 0 !important;
   margin-bottom: 33px !important;
   font-size: 1.5rem;
@@ -6285,36 +6270,36 @@ a:hover {
   margin-bottom: 15px;
 }
 
-#post-body > h3 {
+#post > h3 {
   margin-bottom: 33px !important;
   font-size: 17px !important;
   font-weight: bold;
   line-height: 2.6rem;
 }
 
-#post-body > ol {
+#post > ol {
   padding-left: 0;
 }
 
-#post-body > ol > li {
+#post > ol > li {
   margin-bottom: 20px;
 }
 
-#post-body > ul {
+#post > ul {
   padding-left: 0;
 }
 
-#post-body > ul > li {
+#post > ul > li {
   margin-bottom: 20px;
 }
 
-#post-body > p > a {
+#post > p > a {
 }
 
-#post-body > blockquote {
+#post > blockquote {
 }
 
-#post-body > pre {
+#post > pre {
   background: rgba(238, 238, 238, .35);
   border: solid 2px rgba(0, 0, 0, .05);
   color: #000;
@@ -6326,23 +6311,23 @@ a:hover {
 
 /* Embedded Image */
 
-#post-body > .embedded_image {
+#post > .embedded_image {
   margin-bottom: 33px !important;
   cursor: default;
 }
 
-#post-body > .embedded_image[data-layout="wide"] > img {
+#post > .embedded_image[data-layout="wide"] > img {
   max-width: 1024px;
 }
 
-#post-body > .embedded_image > img {
+#post > .embedded_image > img {
   max-width: 100%;
   height: auto;
   margin: 0 auto;
   display: block;
 }
 
-#post-body > .embedded_image > p {
+#post > .embedded_image > p {
   color: #606f7b;
   font-size: .875rem;
   margin-bottom: 0 !important;
@@ -6351,21 +6336,33 @@ a:hover {
 
 /* Inline HTML */
 
-#post-body > .inline_html {
+#post > .inline_html {
 }
 
 /* Section Break */
 
-#post-body > hr:before {
+#post > hr:before {
   content: '...';
 }
 
-#post-body > hr {
+#post > hr {
   border: none;
   color: #22292f;
   letter-spacing: 1em;
   text-align: center;
   margin-bottom: 5rem;
+}
+
+::-moz-selection {
+  background-color: #ff1493;
+}
+
+::selection {
+  background-color: #ff1493;
+}
+
+a:hover {
+  background-color: #ffd700;
 }
 
 @media (min-width: 576px) {

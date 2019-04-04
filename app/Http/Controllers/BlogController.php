@@ -18,7 +18,7 @@ class BlogController extends Controller
                 ->orderBy('publish_date', 'DESC')
                 ->simplePaginate(12);
 
-        return view('index', [
+        return view('posts.index', [
             'posts' => $posts
         ]);
     }
@@ -33,7 +33,7 @@ class BlogController extends Controller
     {
         $post = WinkPost::live()->whereSlug($slug)->firstOrFail();
 
-        return view('show', [
+        return view('posts.show', [
             'post' => $post
         ]);
     }
