@@ -18,7 +18,6 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0",
-        "laravolt/avatar": "^2.2",
         "writingink/wink": "^0.0.12"
     },
     "require-dev": {
@@ -47,9 +46,6 @@
         "classmap": [
             "database/seeds",
             "database/factories"
-        ],
-        "files": [
-            "bootstrap/helpers.php"
         ]
     },
     "autoload-dev": {

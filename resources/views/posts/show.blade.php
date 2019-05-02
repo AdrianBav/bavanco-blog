@@ -1,22 +1,22 @@
 @extends('app')
 
 @section('content')
-    <main class="container mx-auto">
+    <main class="max-w-lg mx-auto">
 
         <article>
 
             <div class="my-5">
                 <div class="text-grey-darkest text-base leading-normal mb-4">
-                    <a href="/" class="text-grey-darker hover:text-black text-sm no-underline hover:underline">← Back</a>
+                    <a href="/" class="text-grey-darker hover:text-black text-sm no-underline">← Back</a>
                 </div>
-                <h1 class="font-mono">{{ $post->title }}</h1>
-                <p class="text-grey-dark">Published on {{ pretty_date($post->publish_date) }}</p>
+                <h1 class="font-heading">{{ $post->title }}</h1>
+                <p class="text-pink-light">Published on {{ $post->publish_date->toFormattedDateString() }}</p>
             </div>
 
             @if ($post->featured_image)
             <figure class="featured-image mb-8">
-                <img src="{{ $post->featured_image }}" alt="{{ $post->featured_image_caption }}">
-                <figcaption class="block text-grey-dark">{{ $post->featured_image_caption }}</figcaption>
+                <img class="border border-grey" src="{{ $post->featured_image }}" alt="{{ $post->featured_image_caption }}">
+                <figcaption class="block text-pink-light">{{ $post->featured_image_caption }}</figcaption>
             </figure>
             @endif
 

@@ -7,6 +7,12 @@
     align-items: center;
 }
 
+#post h1,
+#post h2,
+#post h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 #post p,
 #post ul,
 #post ol,
@@ -36,20 +42,16 @@
 #post > p > code {}
 
 #post > h2 {
-    margin-top: 0 !important;
+    margin-top: 50px !important;
     margin-bottom: 33px !important;
     font-size: 1.5rem;
     font-weight: bold;
     line-height: 2.6rem;
-
-    margin-top: 56px;
-    margin-bottom: 15px;
 }
 #post > h3 {
     margin-bottom: 33px !important;
     font-size: 17px !important;
     font-weight: bold;
-    line-height: 2.6rem;
 }
 
 #post > ol {
@@ -90,12 +92,11 @@
     height: auto;
     margin: 0 auto;
     display: block;
+    border: 1px solid #b8c2cc;
 }
 #post > .embedded_image > p {
-    color: #606f7b;
-    font-size: .875rem;
+    color: #fa7ea8;
     margin-bottom: 0 !important;
-    text-align: center;
 }
 
 /* Inline HTML */

@@ -2977,7 +2977,7 @@ table {
 }
 
 .font-sans {
-  font-family: Source Sans Pro, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Open Sans, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 .font-serif {
@@ -2985,7 +2985,7 @@ table {
 }
 
 .font-mono {
-  font-family: Major Mono Display, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
 }
 
 .font-hairline {
@@ -6221,6 +6221,12 @@ table {
           align-items: center;
 }
 
+#post h1,
+#post h2,
+#post h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 #post p,
 #post ul,
 #post ol,
@@ -6261,20 +6267,17 @@ table {
 }
 
 #post > h2 {
-  margin-top: 0 !important;
+  margin-top: 50px !important;
   margin-bottom: 33px !important;
   font-size: 1.5rem;
   font-weight: bold;
   line-height: 2.6rem;
-  margin-top: 56px;
-  margin-bottom: 15px;
 }
 
 #post > h3 {
   margin-bottom: 33px !important;
   font-size: 17px !important;
   font-weight: bold;
-  line-height: 2.6rem;
 }
 
 #post > ol {
@@ -6325,13 +6328,12 @@ table {
   height: auto;
   margin: 0 auto;
   display: block;
+  border: 1px solid #b8c2cc;
 }
 
 #post > .embedded_image > p {
-  color: #606f7b;
-  font-size: .875rem;
+  color: #fa7ea8;
   margin-bottom: 0 !important;
-  text-align: center;
 }
 
 /* Inline HTML */
@@ -6353,16 +6355,27 @@ table {
   margin-bottom: 5rem;
 }
 
+.font-heading {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 ::-moz-selection {
-  background-color: #ff1493;
+  background-color: #ffbbca;
 }
 
 ::selection {
-  background-color: #ff1493;
+  background-color: #ffbbca;
+}
+
+a {
+  color: #000;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(0, #ffbbca));
+  background-image: linear-gradient(180deg, transparent 70%, #ffbbca 0);
+  text-decoration: none;
 }
 
 a:hover {
-  background-color: #ffd700;
+  background-color: #ffbbca;
 }
 
 @media (min-width: 576px) {
@@ -8802,7 +8815,7 @@ a:hover {
   }
 
   .sm\:font-sans {
-    font-family: Source Sans Pro, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: Open Sans, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   .sm\:font-serif {
@@ -8810,7 +8823,7 @@ a:hover {
   }
 
   .sm\:font-mono {
-    font-family: Major Mono Display, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   }
 
   .sm\:font-hairline {
@@ -14456,7 +14469,7 @@ a:hover {
   }
 
   .md\:font-sans {
-    font-family: Source Sans Pro, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: Open Sans, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   .md\:font-serif {
@@ -14464,7 +14477,7 @@ a:hover {
   }
 
   .md\:font-mono {
-    font-family: Major Mono Display, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   }
 
   .md\:font-hairline {
@@ -20110,7 +20123,7 @@ a:hover {
   }
 
   .lg\:font-sans {
-    font-family: Source Sans Pro, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: Open Sans, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   .lg\:font-serif {
@@ -20118,7 +20131,7 @@ a:hover {
   }
 
   .lg\:font-mono {
-    font-family: Major Mono Display, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   }
 
   .lg\:font-hairline {
@@ -25764,7 +25777,7 @@ a:hover {
   }
 
   .xl\:font-sans {
-    font-family: Source Sans Pro, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: Open Sans, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   .xl\:font-serif {
@@ -25772,7 +25785,7 @@ a:hover {
   }
 
   .xl\:font-mono {
-    font-family: Major Mono Display, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   }
 
   .xl\:font-hairline {
