@@ -6276,7 +6276,7 @@ table {
 
 #post > h3 {
   margin-bottom: 33px !important;
-  font-size: 17px !important;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
@@ -6328,7 +6328,7 @@ table {
   height: auto;
   margin: 0 auto;
   display: block;
-  border: 1px solid #b8c2cc;
+  border: 1px solid #dae1e7;
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
           box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
 }

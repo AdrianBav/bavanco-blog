@@ -15,7 +15,7 @@
 
             @if ($post->featured_image)
             <figure class="featured-image mb-8">
-                <img class="border border-grey" src="{{ $post->featured_image }}" alt="{{ $post->featured_image_caption }}">
+                <img class="border border-grey-light shadow" src="{{ $post->featured_image }}" alt="{{ $post->featured_image_caption }}">
                 <figcaption class="block text-pink-light">{{ $post->featured_image_caption }}</figcaption>
             </figure>
             @endif
@@ -25,6 +25,10 @@
             </div>
 
         </article>
+
+        <footer class="mt-16 mb-12">
+            <a href="/">Back to home page</a>
+        </footer>
 
     </main>
 @endsection
