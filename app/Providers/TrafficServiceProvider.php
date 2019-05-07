@@ -29,7 +29,7 @@ class TrafficServiceProvider extends ServiceProvider
         }
 
         // Record the visit
-        $url = 'https://traffic.bavanco.local/api/v1/visits';
+        $url = 'https://traffic.bavanco.co.uk/api/v1/visits';
 
         $fields = array(
             'site_slug'  => 'blog',
