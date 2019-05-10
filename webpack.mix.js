@@ -1,5 +1,5 @@
 const mix = require( "laravel-mix" );
-require( "laravel-mix-purgecss" )
+//require( "laravel-mix-purgecss" );
 
 /*
  |--------------------------------------------------------------------------
@@ -20,8 +20,8 @@ mix.js( "resources/js/app.js", "public/js" )
             require( "tailwindcss" )( "./tailwind.js" ),
             require( "postcss-nesting" )(),
         ]
-    })
-    .purgeCss();
+    });
+    //.purgeCss();
 
 if (mix.inProduction()) {
     mix.version();
