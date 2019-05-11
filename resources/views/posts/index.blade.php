@@ -3,11 +3,6 @@
 @section('content')
     <main class="max-w-lg mx-auto">
 
-        <div class="mt-6 mb-12 leading-tight">
-            <h1 class="font-heading text-4xl font-bold">Five-and-Twenty Past</h1>
-            <p class="text-grey-dark text-lg">Time for a cup of tea and a good article</p>
-        </div>
-
         @foreach ($posts as $post)
         <div class="max-w-md w-full lg:flex mb-8">
 
