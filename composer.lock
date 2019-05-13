@@ -4,15 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d076322821bad51e4720ab319556325d",
+    "content-hash": "b450184859b4c5393c09ddf32c056a03",
     "packages": [
         {
             "name": "adrianbav/traffic",
             "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AdrianBav/traffic.git",
+                "reference": "e0fba378f88f2b83c3275c5f281e5082417d84cf"
+            },
             "dist": {
-                "type": "path",
-                "url": "../../Packages/traffic",
-                "reference": "159a3889d34f870d8751fda9b7cffa53346a3016"
+                "type": "zip",
+                "url": "https://api.github.com/repos/AdrianBav/traffic/zipball/e0fba378f88f2b83c3275c5f281e5082417d84cf",
+                "reference": "e0fba378f88f2b83c3275c5f281e5082417d84cf",
+                "shasum": ""
             },
             "require": {
                 "jaybizzle/crawler-detect": "1.*"
@@ -51,7 +57,12 @@
                     "email": "adrian@bavanco.co.uk"
                 }
             ],
-            "description": "Capture website traffic."
+            "description": "Capture website traffic.",
+            "support": {
+                "source": "https://github.com/AdrianBav/traffic/tree/master",
+                "issues": "https://github.com/AdrianBav/traffic/issues"
+            },
+            "time": "2019-05-13T15:41:34+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
