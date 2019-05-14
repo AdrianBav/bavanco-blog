@@ -974,7 +974,6 @@ module.exports = __webpack_require__(41);
 /* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
-
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -993,8 +992,8 @@ window.Vue = __webpack_require__(33);
  * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
  */
 
-// const files = require.context('./', true, /\.vue$/i)
-// files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
+// const files = require.context('./', true, /\.vue$/i);
+// files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
 Vue.component('example-component', __webpack_require__(37).default);
 
@@ -1011,7 +1010,6 @@ var app = new Vue({
 /***/ }),
 /* 11 */
 /***/ (function(module, exports, __webpack_require__) {
-
 
 window._ = __webpack_require__(12);
 
