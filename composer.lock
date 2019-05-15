@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AdrianBav/traffic.git",
-                "reference": "61eaef1f073aa306e865bb33ff21a582f3d2899b"
+                "reference": "f4295e29d496f30e44df47e685e5bf08eab50fa0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AdrianBav/traffic/zipball/61eaef1f073aa306e865bb33ff21a582f3d2899b",
-                "reference": "61eaef1f073aa306e865bb33ff21a582f3d2899b",
+                "url": "https://api.github.com/repos/AdrianBav/traffic/zipball/f4295e29d496f30e44df47e685e5bf08eab50fa0",
+                "reference": "f4295e29d496f30e44df47e685e5bf08eab50fa0",
                 "shasum": ""
             },
             "require": {
@@ -62,7 +62,7 @@
                 "source": "https://github.com/AdrianBav/traffic/tree/master",
                 "issues": "https://github.com/AdrianBav/traffic/issues"
             },
-            "time": "2019-05-13T19:49:10+00:00"
+            "time": "2019-05-14T16:14:45+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -568,16 +568,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.8.16",
+            "version": "v5.8.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "83d57f9f9162ab476c43b9ec00d463ff12c578fd"
+                "reference": "33c04dd2a431adeeb49926a4f2b20590cc033ca2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/83d57f9f9162ab476c43b9ec00d463ff12c578fd",
-                "reference": "83d57f9f9162ab476c43b9ec00d463ff12c578fd",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/33c04dd2a431adeeb49926a4f2b20590cc033ca2",
+                "reference": "33c04dd2a431adeeb49926a4f2b20590cc033ca2",
                 "shasum": ""
             },
             "require": {
@@ -711,7 +711,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2019-05-07T14:37:11+00:00"
+            "time": "2019-05-14T16:02:41+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -3865,16 +3865,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "7.5.10",
+            "version": "7.5.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "d7d9cee051d03ed98df6023aad93f7902731a780"
+                "reference": "64cb33f5b520da490a7b13149d39b43cf3c890c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/d7d9cee051d03ed98df6023aad93f7902731a780",
-                "reference": "d7d9cee051d03ed98df6023aad93f7902731a780",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/64cb33f5b520da490a7b13149d39b43cf3c890c6",
+                "reference": "64cb33f5b520da490a7b13149d39b43cf3c890c6",
                 "shasum": ""
             },
             "require": {
@@ -3945,7 +3945,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2019-05-09T05:06:47+00:00"
+            "time": "2019-05-14T04:53:02+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
