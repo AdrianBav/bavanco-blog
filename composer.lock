@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AdrianBav/traffic.git",
-                "reference": "f4295e29d496f30e44df47e685e5bf08eab50fa0"
+                "reference": "f723044aba785b249ddac100d671e3a7ffed04e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AdrianBav/traffic/zipball/f4295e29d496f30e44df47e685e5bf08eab50fa0",
-                "reference": "f4295e29d496f30e44df47e685e5bf08eab50fa0",
+                "url": "https://api.github.com/repos/AdrianBav/traffic/zipball/f723044aba785b249ddac100d671e3a7ffed04e3",
+                "reference": "f723044aba785b249ddac100d671e3a7ffed04e3",
                 "shasum": ""
             },
             "require": {
@@ -62,7 +62,7 @@
                 "source": "https://github.com/AdrianBav/traffic/tree/master",
                 "issues": "https://github.com/AdrianBav/traffic/issues"
             },
-            "time": "2019-05-14T16:14:45+00:00"
+            "time": "2019-05-16T02:44:27+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
