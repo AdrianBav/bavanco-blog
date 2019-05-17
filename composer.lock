@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AdrianBav/traffic.git",
-                "reference": "f723044aba785b249ddac100d671e3a7ffed04e3"
+                "reference": "04b2e554c4735bc203094c0d74a810ad69b18fdd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AdrianBav/traffic/zipball/f723044aba785b249ddac100d671e3a7ffed04e3",
-                "reference": "f723044aba785b249ddac100d671e3a7ffed04e3",
+                "url": "https://api.github.com/repos/AdrianBav/traffic/zipball/04b2e554c4735bc203094c0d74a810ad69b18fdd",
+                "reference": "04b2e554c4735bc203094c0d74a810ad69b18fdd",
                 "shasum": ""
             },
             "require": {
@@ -62,7 +62,7 @@
                 "source": "https://github.com/AdrianBav/traffic/tree/master",
                 "issues": "https://github.com/AdrianBav/traffic/issues"
             },
-            "time": "2019-05-16T02:44:27+00:00"
+            "time": "2019-05-16T14:47:11+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -940,16 +940,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.17.1",
+            "version": "2.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "96acbc0c03782e8115156dd4dd8b736267155066"
+                "reference": "8322b7bd1805be31867c13bf3cdaab948a0dd406"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/96acbc0c03782e8115156dd4dd8b736267155066",
-                "reference": "96acbc0c03782e8115156dd4dd8b736267155066",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/8322b7bd1805be31867c13bf3cdaab948a0dd406",
+                "reference": "8322b7bd1805be31867c13bf3cdaab948a0dd406",
                 "shasum": ""
             },
             "require": {
@@ -996,7 +996,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2019-04-27T18:04:27+00:00"
+            "time": "2019-05-16T18:44:35+00:00"
         },
         {
             "name": "nikic/php-parser",
