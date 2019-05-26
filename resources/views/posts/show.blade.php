@@ -3,7 +3,7 @@
 @section('content')
     <main class="max-w-lg mx-auto">
 
-        <article>
+        <article class="bg-white p-4">
 
             <div class="my-5">
                 <h1 class="font-heading">{{ $post->title }}</h1>
@@ -23,14 +23,16 @@
 
         </article>
 
-        <footer class="mt-16 mb-12">
+        <footer class="mt-16 mb-5">
             <div class="flex items-center">
                 <div class="flex-grow border-b border-grey"></div>
                 <img class="m-4 p-1 border border-grey rounded-full" src="{{ asset('images/me.jpg') }}" alt="Adrian Bavister">
                 <div class="flex-grow border-b border-grey"></div>
             </div>
 
-            <a href="/">Back to home page</a>
+            <div class="bg-white p-5 mt-10 text-center">
+                <a href="/">Back to home page</a>
+            </div>
         </footer>
 
     </main>

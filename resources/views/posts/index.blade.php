@@ -25,7 +25,9 @@
         </div>
         @endforeach
 
-        {{ $posts->links() }}
+        <footer>
+            {{ $posts->links() }}
+        </footer>
 
     </main>
 @endsection
