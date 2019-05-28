@@ -24,6 +24,12 @@
         </header>
 
         @yield('content')
+
+        <footer class="bg-grey-lighter border-t border-pink-lighter rounded mt-24 p-4 text-center">
+            @section('footer')
+            <p class="text-grey-darker text-sm">Copyright &copy; 2002 - {{ date('Y') }} Bavanco</p>
+            @show
+        </footer>
     </body>
 
 </html>

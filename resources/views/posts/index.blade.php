@@ -25,9 +25,13 @@
         </div>
         @endforeach
 
-        <footer>
-            {{ $posts->links() }}
-        </footer>
+        <div>{{ $posts->links() }}</div>
 
     </main>
+@endsection
+
+@section('footer')
+    <a href="https://www.bavanco.co.uk" target="_blank" class="inline-block mb-2">bavanco.co.uk</a>
+
+    @parent
 @endsection

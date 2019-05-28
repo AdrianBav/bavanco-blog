@@ -23,17 +23,21 @@
 
         </article>
 
-        <footer class="mt-16 mb-5">
+        <div class="mt-16 mb-5">
             <div class="flex items-center">
                 <div class="flex-grow border-b border-grey"></div>
                 <img class="m-4 p-1 border border-grey rounded-full" src="{{ asset('images/me.jpg') }}" alt="Adrian Bavister">
                 <div class="flex-grow border-b border-grey"></div>
             </div>
-
-            <div class="bg-white md:border md:border-grey-light md:rounded mt-10 p-5 text-center">
-                <a href="/">Back to home page</a>
-            </div>
-        </footer>
+        </div>
 
     </main>
+@endsection
+
+@section('footer')
+    <a href="/" class="inline-block mb-2">Five-and-Twenty Past</a>
+    <span>|</span>
+    <a href="https://www.bavanco.co.uk" target="_blank" class="inline-block mb-2">bavanco.co.uk</a>
+
+    @parent
 @endsection
