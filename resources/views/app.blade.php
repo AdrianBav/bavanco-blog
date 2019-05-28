@@ -23,7 +23,9 @@
             </div>
         </header>
 
-        @yield('content')
+        <main class="max-w-lg mx-auto">
+            @yield('content')
+        </main>
 
         <footer class="bg-grey-lighter border-t border-pink-lighter rounded mt-24 p-4 text-center">
             @section('footer')
