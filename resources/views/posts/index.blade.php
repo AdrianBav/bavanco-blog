@@ -4,7 +4,7 @@
     <main class="max-w-lg mx-auto">
 
         @foreach ($posts as $post)
-        <div class="max-w-md w-full lg:flex mb-8">
+        <div class="max-w-md w-full lg:flex mb-16 md:mb-8">
 
             <div class="lg:w-48 h-48 lg:h-auto flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url({{ $post->featured_image ?? 'https://via.placeholder.com/150' }})" title="{{ $post->featured_image_caption }}"></div>
             <div class="lg:w-full border-r border-b border-l border-grey-light lg:border-l-0 lg:border-t lg:border-grey-light bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">

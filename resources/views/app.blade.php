@@ -16,9 +16,9 @@
         <header class="overflow-hidden relative">
             <div class="hidden sm:block header-bg overflow-hidden"></div>
             <div class="max-w-lg mx-auto">
-                <div class="mt-6 mb-24 leading-tight bg-white sm:bg-transparent p-4 sm:p-0">
-                    <h1 class="font-heading text-4xl font-bold">Five-and-Twenty Past</h1>
-                    <p class="text-grey-dark text-lg">Time for a cup of tea and a good article</p>
+                <div class="mt-6 mb-12 md:mb-24 leading-tight bg-white sm:bg-transparent p-4 sm:p-0">
+                    <h1 class="font-heading text-4xl font-bold"><a href="/" class="plain">Five-and-Twenty Past</a></h1>
+                    <p class="text-grey-dark text-lg leading-normal">Time for a cup of tea and a good article</p>
                 </div>
             </div>
         </header>

@@ -3,7 +3,7 @@
 @section('content')
     <main class="max-w-lg mx-auto">
 
-        <article class="bg-white p-4">
+        <article class="bg-white md:border md:border-grey-light md:rounded p-4">
 
             <div class="my-5">
                 <h1 class="font-heading">{{ $post->title }}</h1>
@@ -30,7 +30,7 @@
                 <div class="flex-grow border-b border-grey"></div>
             </div>
 
-            <div class="bg-white p-5 mt-10 text-center">
+            <div class="bg-white md:border md:border-grey-light md:rounded mt-10 p-5 text-center">
                 <a href="/">Back to home page</a>
             </div>
         </footer>
