@@ -14,7 +14,7 @@
             </div>
             <div class="flex items-center">
                 <div class="text-sm">
-                    <p class="text-black leading-none">{{ $post->author->name }}</p>
+                    <p class="text-black leading-none">Written by {{ $post->author->name }}</p>
                     <p class="text-grey-dark">{{ $post->publish_date->diffForHumans() }}</p>
                 </div>
             </div>
@@ -24,10 +24,4 @@
     @endforeach
 
     <div>{{ $posts->links() }}</div>
-@endsection
-
-@section('footer')
-    <a href="https://www.bavanco.co.uk" target="_blank" class="inline-block mb-2">bavanco.co.uk</a>
-
-    @parent
 @endsection

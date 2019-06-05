@@ -68,7 +68,12 @@
 }
 #post > p > a {}
 
-#post > blockquote {}
+#post > blockquote {
+    border-left: 4px solid #fa7ea8;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 16px
+}
 #post > pre {
     background: rgba(238, 238, 238, 0.35);
     border: solid 2px rgba(0, 0, 0, 0.05);

@@ -6300,6 +6300,10 @@ table {
 }
 
 #post > blockquote {
+  border-left: 4px solid #fa7ea8;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-left: 16px;
 }
 
 #post > pre {

@@ -28,9 +28,10 @@
         </main>
 
         <footer class="bg-grey-lighter border-t border-pink-lighter rounded mt-24 p-4 text-center">
-            @section('footer')
+            <strong>Five-and-Twenty Past</strong> is part of
+            <a href="https://www.bavanco.co.uk" target="_blank" class="inline-block mb-2">bavanco.co.uk</a>
+
             <p class="text-grey-darker text-sm">Copyright &copy; 2002 - {{ date('Y') }} Bavanco</p>
-            @show
         </footer>
     </body>
 
