@@ -34,7 +34,8 @@ class BlogController extends Controller
         $post = WinkPost::live()->whereSlug($slug)->firstOrFail();
 
         return view('posts.show', [
-            'post' => $post
+            'post' => $post,
+            'meta' => $post->meta,
         ]);
     }
 }
