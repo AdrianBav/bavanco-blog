@@ -19,6 +19,11 @@
             {!! $post->body !!}
         </div>
 
+        <div class="flex justify-between mt-12">
+            <a href="{{ route('home') }}">&larr; Back</a>
+            <a href="#top">Top &uarr;</a>
+        </div>
+
     </article>
 
     <div class="mt-16 mb-5">

@@ -13,6 +13,6 @@ use AdrianBav\Traffic\Middlewares\RecordVisits;
 |
 */
 
-Route::get('/', 'BlogController@index')->middleware(RecordVisits::class);
+Route::get('/', 'BlogController@index')->middleware(RecordVisits::class)->name('home');
 
 Route::get('{slug}', 'BlogController@show');
