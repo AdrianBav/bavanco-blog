@@ -6394,7 +6394,9 @@ table {
   background-color: #ffbbca;
 }
 
-a {
+a,
+a:active,
+a:visited {
   color: #000;
   text-decoration: none;
 }
