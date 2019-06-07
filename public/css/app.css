@@ -6397,7 +6397,7 @@ table {
 a,
 a:active,
 a:visited {
-  color: #000;
+  color: #000 !important;
   text-decoration: none;
 }
 
