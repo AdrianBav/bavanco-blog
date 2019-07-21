@@ -2,7 +2,6 @@
 
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Foundation\Inspiring;
 use Illuminate\Filesystem\Filesystem;
 
 /*
@@ -15,11 +14,6 @@ use Illuminate\Filesystem\Filesystem;
 | simple approach to interacting with each command's IO methods.
 |
 */
-
-Artisan::command('inspire', function () {
-    $this->comment(Inspiring::quote());
-})->describe('Display an inspiring quote');
-
 
 Artisan::command('wink:author', function () {
     Wink\WinkAuthor::truncate();
