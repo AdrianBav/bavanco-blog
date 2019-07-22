@@ -14,9 +14,9 @@
 Route::middleware('auth:api')->get('/meta', function () {
     return [
         'item1' => '%d articles',
-        'number1' => 5,
+        'number1' => 6,
         'item2' => '%d photos',
-        'number2' => 24,
+        'number2' => (1 + 3 + 7 + 6 + 7 + 5),
         'info' => 'NO stock photos',
     ];
 });
