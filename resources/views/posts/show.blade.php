@@ -1,4 +1,5 @@
 @extends('app')
+@section('title', $post->title)
 
 @section('content')
     <article class="bg-white md:border md:border-grey-light md:rounded p-4">

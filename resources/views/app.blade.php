@@ -13,7 +13,7 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
-        <title>{{ config('app.name', 'Blog') }}</title>
+        <title>@yield('title') | {{ config('app.name') }} (the bavanco blog)</title>
     </head>
 
     <body class="hero-bg text-grey-darkest font-sans leading-normal antialiased">

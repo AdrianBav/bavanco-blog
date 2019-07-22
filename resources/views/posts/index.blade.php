@@ -1,4 +1,5 @@
 @extends('app')
+@section('title', 'Home')
 
 @section('content')
     @foreach ($posts as $post)
