@@ -16,9 +16,7 @@ use Wink\WinkPost;
 Route::middleware('auth:api')->get('/meta', function () {
     $posts = WinkPost::live()->get();
 
-    $featureImages = $posts->filter(function($post) {
-        return $post->featured_image;
-    });
+    $featureImagesCount = $posts->pluck('featured_image')->filter()->count();
 
     $bodyImagesCount = $posts->reduce(function ($numberOfImages, $post) {
         return $numberOfImages + substr_count($post->body, '<img');
@@ -28,7 +26,7 @@ Route::middleware('auth:api')->get('/meta', function () {
         'item1' => '%d articles',
         'number1' => count($posts),
         'item2' => '%d photos',
-        'number2' => count($featureImages) + $bodyImagesCount,
+        'number2' => $featureImagesCount + $bodyImagesCount,
         'info' => 'NO stock photos',
     ];
 });
