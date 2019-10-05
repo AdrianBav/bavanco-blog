@@ -13,10 +13,9 @@ class BlogController extends Controller
      */
     public function index()
     {
-        $posts = WinkPost::with('tags')
-                ->live()
-                ->orderBy('publish_date', 'DESC')
-                ->simplePaginate(12);
+        $posts = WinkPost::live()
+            ->orderByDesc('publish_date')
+            ->simplePaginate(12);
 
         return view('posts.index', [
             'posts' => $posts
@@ -31,7 +30,9 @@ class BlogController extends Controller
      */
     public function show($slug)
     {
-        $post = WinkPost::live()->whereSlug($slug)->firstOrFail();
+        $post = WinkPost::live()
+            ->whereSlug($slug)
+            ->firstOrFail();
 
         return view('posts.show', [
             'post' => $post,
